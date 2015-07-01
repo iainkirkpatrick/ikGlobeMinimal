@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  <head>
+    {% include head.html %}
+    <script src="js/globe.js"></script>
+  </head>
 
   <body>
     <div class="page-content">
@@ -13,7 +16,7 @@
           <p>(drag)</p>
         </div>
         <div class="title">
-          <h1>iainkirkpatrick.me</h1>
+          <a href="/"><h1>iainkirkpatrick.me</h1></a>
         </div>
         <div class="nav">
           <!-- Nav tabs -->
@@ -29,7 +32,7 @@
             {% include about.html %}
           </div>
           <div role="tabpanel" class="tab-pane fade" id="blog">
-            {% include blog.html %}
+            {{content}}
           </div>
           <div role="tabpanel" class="tab-pane fade" id="projects">
             {% include projects.html %}

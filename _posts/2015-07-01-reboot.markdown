@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Reboot"
+date:   2015-07-01
+---
+Time for site reboot, having finished Dev Academy.
+The trick is getting the old blog posts imported over here ideally...
